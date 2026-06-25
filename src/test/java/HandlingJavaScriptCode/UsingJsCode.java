@@ -36,7 +36,7 @@ public class UsingJsCode {
 	
 	//Scroll To Always start from the origin
 	jsobj.executeScript("window.scrollTo(0,300)");
-	
+	System.out.println("Handling jscode");
 	}
 
 }
